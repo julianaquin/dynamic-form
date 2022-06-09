@@ -18,7 +18,7 @@ export default function SecondStep() {
     const [selectOption,setSelectOption] = useState(null);
 
     const hobbiesPred = JSON.stringify(selectOption);
-    localStorage.setItem('additionalHobbie', hobbiesPred);
+    localStorage.setItem('Hobbie', hobbiesPred);
 
     const onChangeAdditionalHobbie = (e) =>{
         const sport= e.target.value;
